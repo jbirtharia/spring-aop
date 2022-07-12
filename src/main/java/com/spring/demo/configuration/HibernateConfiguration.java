@@ -53,7 +53,6 @@ public class HibernateConfiguration {
     }
 
     @Bean
-    @Autowired
     public HibernateTransactionManager transactionManager() {
         HibernateTransactionManager transactionManager =
                 new HibernateTransactionManager();

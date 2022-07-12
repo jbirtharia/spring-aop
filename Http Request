@@ -1,0 +1,13 @@
+POST http://localhost:8080/spring_hiber_aop_war_exploded/customer
+Content-Type: application/json
+
+{
+    "firstName":"Rahul",
+    "lastName":"Dravid",
+    "email":"r@gmail.com"
+}
+
+
+###
+GET http://localhost:8080/spring_hiber_aop_war_exploded/customer
+
